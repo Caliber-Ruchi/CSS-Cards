@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background: rgb(34,193,195);
+            background: linear-gradient(0deg, rgba(34,193,195,1) 2%, rgba(253,187,45,1) 100%);
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            width:270px;
+            height:350px;
+            background-color: white;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            padding: 10px;
+        }
+
+        .card img{
+            height: 70%;
+            border-radius: 10px;
+        }
+
+        .card h2{
+            font-weight: bold;
+        }
+
+        .card p{
+            font-size: 0.7rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="Qrcode.png" alt="">
+            <h4>Subscribe my channel and hit the like button.</h4>
+            <p>Scan this QR code for more information and do not miss any notification.</p>
+        </div>
+    </div>
+</body>
+</html>
